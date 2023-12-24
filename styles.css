@@ -229,3 +229,29 @@ body, ul {
     right: 0;
     border-radius: 3px 0 0 3px;
 }
+
+
+/* CSS */
+.signup-button {
+    position: absolute;
+    top: 15px;
+    right: 20px;
+}
+
+.signup-button a {
+    text-decoration: none;
+}
+
+.signup-button button {
+    padding: 10px 20px;
+    background-color: #ff9900;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.signup-button button:hover {
+    background-color: #0056b3;
+}
